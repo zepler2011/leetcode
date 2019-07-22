@@ -1,3 +1,11 @@
+/**
+Submission result:
+
+ - Runtime: 88 ms, faster than 84.93% of C online submissions for Two Sum.
+ - Memory Usage: 7.6 MB, less than 35.44% of C online submissions for Two Sum.
+ */
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
