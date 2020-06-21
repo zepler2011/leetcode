@@ -6,10 +6,10 @@ class Solution:
     """
     def findRadius(self, houses, heaters):
         # Write your code here
-        houses.sort()
-        heaters.sort()
         start = 0
-        end = max(houses[-1] - houses[0], heaters[-1])
+        # end = ( houses[-1] - houses[0] ) // 2 + 1
+        end = max(houses[-1], heaters[-1])
+        # end = sys.maxsize
         
         while start +1 < end:
             mid = (start+end)//2
